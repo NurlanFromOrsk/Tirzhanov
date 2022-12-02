@@ -1,16 +1,14 @@
-# This is a sample Python script.
-
-# Press Shift+F10 to execute it or replace it with your code.
-# Press Double Shift to search everywhere for classes, files, tool windows, actions, and settings.
-
-
 def print_hi(name):
-    # Use a breakpoint in the code line below to debug your script.
-    print(f'Hi, {name}')  # Press Ctrl+F8 to toggle the breakpoint.
+    '''Принимая на вход объект name, печатает вместе с ним строку, добавляя name в конец
+    Args:
+        name (str or int or float): объект, который будет напечатан в конце строки
+    '''
+    print(f'Hi, {name}')
 
-
-# Press the green button in the gutter to run the script.
 if __name__ == '__main__':
+    '''Строка вернет True только в том случае, если программа будет запущена прямо.
+    __main__ указывает на область видимости, где будет выполняться код.
+    Если запустить Python-файл прямо, то значением __name__ будет __main__.
+    Если же его запустить в качестве модуля, то значением будет уже не __main__, а название модуля
+    '''
     print_hi('C#')
-
-# See PyCharm help at https://www.jetbrains.com/help/pycharm/
